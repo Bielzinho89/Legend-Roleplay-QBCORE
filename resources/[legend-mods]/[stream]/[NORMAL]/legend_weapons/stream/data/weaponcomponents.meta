@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+  </Data>
+  <Infos>
+    <!--Clip FAL-->
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_FAL_CLIP_01</Name>
+      <Model>w_ar_fal_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_SCRB_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="30" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <!--Clip DESERT-->
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_DESERT_CLIP_01</Name>
+      <Model>W_PI_PISTOL50_Mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_P50_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="7" />
+      <ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES" />
+    </Item>
+    <!--Skin SNSPISTOL-->
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_HK_CDA_CRIMSONQUEEN</Name>
+      <Model>w_pi_sns_pistol_skin</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_SNSPISTOL_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_sns_pistol_skin_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_SNSPISTOL_CLIP_02</ComponentName>
+		  <ComponentModel>w_pi_sns_pistol_skin_mag2</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_HK_CDA_BLOSSOM</Name>
+      <Model>w_pi_sns_pistol_skin2</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_SNSPISTOL_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_sns_pistol_skin2_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_SNSPISTOL_CLIP_02</ComponentName>
+		  <ComponentModel>w_pi_sns_pistol_skin2_mag2</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+    <!--Skin PISTOLMK2-->
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_FIVESEVEN_CDA_TRIPPYFOX</Name>
+      <Model>w_pi_pistolmk2_skin</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_PISTOL_MK2_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_pistolmk2_skin_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_PISTOL_MK2_CLIP_02</ComponentName>
+		  <ComponentModel>w_pi_pistolmk2_skin_mag2</ComponentModel>
+		</Item>
+    <Item>
+		  <ComponentName>COMPONENT_AT_PI_RAIL</ComponentName>
+		  <ComponentModel>w_at_pi_five_mira_skin_1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_PI_FLSH_02</ComponentName>
+		  <ComponentModel>w_at_pi_five_flsh_skin_2</ComponentModel>
+		</Item>
+    <Item>
+		  <ComponentName>COMPONENT_AT_PI_SUPP_02</ComponentName>
+		  <ComponentModel>w_at_pi_five_silen_skin_2</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_PI_COMP</ComponentName>
+		  <ComponentModel>w_at_pi_five_comp_skin_1</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_FIVESEVEN_CDA_NAMIFADE</Name>
+      <Model>w_pi_pistolmk2_skin2</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_PISTOL_MK2_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_pistolmk2_skin2_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_PISTOL_MK2_CLIP_02</ComponentName>
+		  <ComponentModel>w_pi_pistolmk2_skin2_mag2</ComponentModel>
+		</Item>
+    <Item>
+		  <ComponentName>COMPONENT_AT_PI_RAIL</ComponentName>
+		  <ComponentModel>w_at_pi_rail_1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_PI_FLSH_02</ComponentName>
+		  <ComponentModel>w_at_pi_flsh_2</ComponentModel>
+		</Item>
+    <Item>
+		  <ComponentName>COMPONENT_AT_PI_SUPP_02</ComponentName>
+		  <ComponentModel>w_at_pi_supp_2</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_PI_COMP</ComponentName>
+		  <ComponentModel>w_at_pi_comp_1</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+   <!--Skin GLOCK-->
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_GLOCK_CDA_SNACKCLUB</Name>
+      <Model>w_pi_glock_skin</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_COMBATPISTOL_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_glock_skin_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_COMBATPISTOL_CLIP_02</ComponentName>
+		  <ComponentModel>w_pi_glock_skin_mag2</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_GLOCK_CDA_SEATERROR</Name>
+      <Model>w_pi_glock_skin2</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_COMBATPISTOL_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_glock_skin2_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_COMBATPISTOL_CLIP_02</ComponentName>
+		  <ComponentModel>w_pi_glock_skin2_mag2</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_GLOCK_CDA_REDSAMURAI</Name>
+      <Model>w_pi_glock_skin3</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_COMBATPISTOL_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_glock_skin3_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_COMBATPISTOL_CLIP_02</ComponentName>
+		  <ComponentModel>w_pi_glock_skin3_mag2</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+    <!--Skin Desert-->
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_DESERT_CDA_OMATSURI</Name>
+      <Model>w_pi_desert_skin</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_PISTOL50_CLIP_01</ComponentName>
+		  <ComponentModel>w_pi_desert_skin_mag1</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+    <!--Skin Revolver-->
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_REVOLVER_CDA_KITSUNE</Name>
+      <Model>w_pi_revolver_skin</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents />
+    </Item>
+    <!--Skin AK47-->
+    <Item type="CWeaponComponentVariantModelInfo">
+      <Name>COMPONENT_AK47_CDA_SKIN</Name>
+      <Model>w_ar_ak47_skin</Model>
+      <LocName>WCT_INVALID</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone />
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="false" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+	  <TintIndexOverride value="6"/>
+	  <ExtraComponents>
+		<Item>
+		  <ComponentName>COMPONENT_ASSAULTRIFLE_CLIP_01</ComponentName>
+		  <ComponentModel>w_ar_ak47_skin_mag1</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_ASSAULTRIFLE_CLIP_02</ComponentName>
+		  <ComponentModel>w_ar_ak47_skin_mag2</ComponentModel>
+		</Item>
+    <Item>
+		  <ComponentName>COMPONENT_AT_AR_FLSH</ComponentName>
+		  <ComponentModel>w_at_ar_flsh</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_SCOPE_MACRO</ComponentName>
+		  <ComponentModel>w_at_scope_small</ComponentModel>
+		</Item>
+    <Item>
+		  <ComponentName>COMPONENT_AT_AR_SUPP_02</ComponentName>
+		  <ComponentModel>w_at_ar_supp_02</ComponentModel>
+		</Item>
+		<Item>
+		  <ComponentName>COMPONENT_AT_AR_AFGRIP</ComponentName>
+		  <ComponentModel>w_at_ar_afgrip</ComponentModel>
+		</Item>
+	  </ExtraComponents>
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - CDACOMP</InfoBlobName>
+</CWeaponComponentInfoBlob>

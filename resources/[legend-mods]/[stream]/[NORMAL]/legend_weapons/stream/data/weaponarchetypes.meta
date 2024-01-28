@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<!-- fal -->
+		<Item>
+		  <modelName>w_ar_fal</modelName>
+		  <txdName>w_ar_fal</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_ar_fal_Mag1</modelName>
+		  <txdName>w_ar_fal_Mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+        <!-- katana -->
+		<Item>
+		  <modelName>w_me_katana</modelName>
+		  <txdName>w_me_katana</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<!--SNSPISTOL-->
+		<Item>
+		  <modelName>w_pi_sns_pistol_skin</modelName>
+		  <txdName>w_pi_sns_pistol_skin</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_sns_pistol_skin_mag1</modelName>
+		  <txdName>w_pi_sns_pistol_skin_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_sns_pistol_skin_mag2</modelName>
+		  <txdName>w_pi_sns_pistol_skin_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_sns_pistol_skin2</modelName>
+		  <txdName>w_pi_sns_pistol_skin2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_sns_pistol_skin2_mag1</modelName>
+		  <txdName>w_pi_sns_pistol_skin2_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_sns_pistol_skin2_mag2</modelName>
+		  <txdName>w_pi_sns_pistol_skin2_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<!--PISTOLMK2-->
+		<Item>
+		  <modelName>w_pi_pistolmk2_skin</modelName>
+		  <txdName>w_pi_pistolmk2_skin</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_pistolmk2_skin_mag1</modelName>
+		  <txdName>w_pi_pistolmk2_skin_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_pistolmk2_skin_mag2</modelName>
+		  <txdName>w_pi_pistolmk2_skin_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_five_comp_skin_1</modelName>
+		  <txdName>w_at_pi_five_comp_skin_1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_five_flsh_skin_2</modelName>
+		  <txdName>w_at_pi_five_flsh_skin_2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_five_mira_skin_1</modelName>
+		  <txdName>w_at_pi_five_mira_skin_1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_at_pi_five_silen_skin_2</modelName>
+		  <txdName>w_at_pi_five_silen_skin_2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_pistolmk2_skin2</modelName>
+		  <txdName>w_pi_pistolmk2_skin2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_pistolmk2_skin2_mag1</modelName>
+		  <txdName>w_pi_pistolmk2_skin2_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_pistolmk2_skin2_mag2</modelName>
+		  <txdName>w_pi_pistolmk2_skin2_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<!--GLOCK-->
+		<Item>
+		  <modelName>w_pi_glock_skin</modelName>
+		  <txdName>w_pi_glock_skin</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin_mag1</modelName>
+		  <txdName>w_pi_glock_skin_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin_mag2</modelName>
+		  <txdName>w_pi_glock_skin_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin2</modelName>
+		  <txdName>w_pi_glock_skin2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin2_mag1</modelName>
+		  <txdName>w_pi_glock_skin2_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin2_mag2</modelName>
+		  <txdName>w_pi_glock_skin2_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin3</modelName>
+		  <txdName>w_pi_glock_skin3</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin3_mag1</modelName>
+		  <txdName>w_pi_glock_skin3_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_glock_skin3_mag2</modelName>
+		  <txdName>w_pi_glock_skin3_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<!--DESERT-->
+		<Item>
+		  <modelName>w_pi_desert_skin</modelName>
+		  <txdName>w_pi_desert_skin</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_desert_skin_mag1</modelName>
+		  <txdName>w_pi_desert_skin_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_pi_desert_skin_mag1</modelName>
+		  <txdName>w_pi_desert_skin_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<!--REVOLVER-->
+		<Item>
+		  <modelName>w_pi_revolver_skin</modelName>
+		  <txdName>w_pi_revolver_skin</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<!--AK47-->
+		<Item>
+		  <modelName>w_ar_ak47_skin</modelName>
+		  <txdName>w_ar_ak47_skin</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_ar_ak47_skin_mag1</modelName>
+		  <txdName>w_ar_ak47_skin_mag1</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+		<Item>
+		  <modelName>w_ar_ak47_skin_mag2</modelName>
+		  <txdName>w_ar_ak47_skin_mag2</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

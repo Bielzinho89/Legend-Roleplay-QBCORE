@@ -1,0 +1,23 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>ext_mecanica_big.ymap</Item>
+    <Item>lr_sc1_00e_strm_0.ymap</Item>
+    <Item>lr_sc1_occl_02.ymap</Item>
+    <Item>mecanica_big.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>mecanica_big.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames />
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>
