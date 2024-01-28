@@ -1,0 +1,6 @@
+**/cache
+**/build
+**/sql
+**/txData
+**/*.rar
+**/*.zip
