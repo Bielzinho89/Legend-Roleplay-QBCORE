@@ -1,0 +1,519 @@
+
+================================================================
+======== Log Rotated - 1/28/2024, 12:00:00 AM                   
+================================================================
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 120 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 181 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 136 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] [0mServer list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 140 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 163 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 179 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 121 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] server thread hitch warning: timer interval of 203 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 143 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 132 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] server thread hitch warning: timer interval of 220 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 106 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ script:connectqueue] QUEUE: dfreire707[steam:110000147a622b0] was placed 1/1 in queue
+[38;5;173m[ script:connectqueue] QUEUE: dfreire707[steam:110000147a622b0] is loading into the server
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;133m[script:qb-multichara] [qb-core] dfreire707 (Citizen ID: YPM60149) has succesfully loaded!
+[   script:ps-housing] SCRIPT ERROR: @ps-housing/server/server.lua:107: ps-housing was unable to execute a query!
+[   script:ps-housing] Query: SELECT * FROM properties WHERE owner_citizenid = ? AND apartment IS NOT NULL AND apartment <> ""
+[   script:ps-housing] ["YPM60149"]
+[   script:ps-housing] Table 'legend-roleplay-db.properties' doesn't exist
+[   script:ps-housing] > callbackResponse (@ox_lib/imports/callback/server.lua:60)
+[   script:ps-housing] > handler (@ox_lib/imports/callback/server.lua:76)
+[   script:ps-housing] > logError (@oxmysql/dist/build.js:24889)
+[   script:ps-housing] > rawQuery (@oxmysql/dist/build.js:25056)
+[   script:ps-housing] > processTicksAndRejections (node:internal/process/task_queues:96)
+[   script:ps-housing] 
+[      script:qb-core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:739: SCRIPT ERROR: @qb-spawn/server.lua:6: qb-spawn was unable to execute a query!
+[      script:qb-core] Query: SELECT * FROM properties WHERE owner_citizenid = ?
+[      script:qb-core] ["YPM60149"]
+[      script:qb-core] Table 'legend-roleplay-db.properties' doesn't exist
+[      script:qb-core] > ref (@qb-spawn/server.lua:6)
+[      script:qb-core] > logError (@oxmysql/dist/build.js:24889)
+[      script:qb-core] > rawQuery (@oxmysql/dist/build.js:25056)
+[38;5;134m[      script:qb-core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[      script:qb-core] 
+[      script:qb-core] > TriggerCallback (@qb-core/server/functions.lua:365)
+[      script:qb-core] > handler (@qb-core/server/events.lua:104)
+[      script:qb-core] > logError (@oxmysql/dist/build.js:24889)
+[      script:qb-core] > rawQuery (@oxmysql/dist/build.js:25056)
+[      script:qb-core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl] server thread hitch warning: timer interval of 252 milliseconds
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;135m[ script:ox_inventory] [info] Saving 1 inventories to the database
+[ script:ox_inventory] [info] Saved 1/1 players (34.2521 ms)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ script:ox_inventory] [info] Saving 1 inventories to the database
+[38;5;135m[ script:ox_inventory] [info] Saved 1/1 players (10.7944 ms)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;173m[ script:connectqueue] QUEUE: NEGÃO_ALBINO[steam:110000110bc864a] was placed 1/1 in queue
+[ script:connectqueue] QUEUE: NEGÃO_ALBINO[steam:110000110bc864a] is loading into the server
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;134m[      script:qb-core] [qb-core:LOG] NEGÃO_ALBINO PLAYER SAVED!
+[38;5;133m[script:qb-multichara] [qb-core] NEGÃO_ALBINO (Citizen ID: VGZ94819) has succesfully loaded!
+[38;5;18m[   script:ps-housing] SCRIPT ERROR: @ps-housing/server/server.lua:107: ps-housing was unable to execute a query!
+[   script:ps-housing] Query: SELECT * FROM properties WHERE owner_citizenid = ? AND apartment IS NOT NULL AND apartment <> ""
+[   script:ps-housing] ["VGZ94819"]
+[   script:ps-housing] Table 'legend-roleplay-db.properties' doesn't exist
+[   script:ps-housing] > callbackResponse (@ox_lib/imports/callback/server.lua:60)
+[   script:ps-housing] > handler (@ox_lib/imports/callback/server.lua:76)
+[   script:ps-housing] > logError (@oxmysql/dist/build.js:24889)
+[   script:ps-housing] > rawQuery (@oxmysql/dist/build.js:25056)
+[   script:ps-housing] > processTicksAndRejections (node:internal/process/task_queues:96)
+[   script:ps-housing] 
+[38;5;134m[      script:qb-core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:739: SCRIPT ERROR: @qb-spawn/server.lua:6: qb-spawn was unable to execute a query!
+[      script:qb-core] Query: SELECT * FROM properties WHERE owner_citizenid = ?
+[      script:qb-core] ["VGZ94819"]
+[      script:qb-core] Table 'legend-roleplay-db.properties' doesn't exist
+[      script:qb-core] > ref (@qb-spawn/server.lua:6)
+[      script:qb-core] > logError (@oxmysql/dist/build.js:24889)
+[      script:qb-core] > rawQuery (@oxmysql/dist/build.js:25056)
+[      script:qb-core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[      script:qb-core] 
+[      script:qb-core] > TriggerCallback (@qb-core/server/functions.lua:365)
+[      script:qb-core] > handler (@qb-core/server/events.lua:104)
+[      script:qb-core] > logError (@oxmysql/dist/build.js:24889)
+[      script:qb-core] > rawQuery (@oxmysql/dist/build.js:25056)
+[      script:qb-core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[38;5;134m[      script:qb-core] [qb-core:LOG] NEGÃO_ALBINO PLAYER SAVED!
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ script:ox_inventory] [info] Saving 1 inventories to the database
+[38;5;135m[ script:ox_inventory] [info] Saved 1/1 players (6.6073 ms)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] NEGÃO_ALBINO PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] NEGÃO_ALBINO PLAYER SAVED!
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] NEGÃO_ALBINO PLAYER SAVED!
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] NEGÃO_ALBINO PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[      script:qb-core] [qb-core:LOG] NEGÃO_ALBINO PLAYER SAVED!
+[ citizen-server-impl] server thread hitch warning: timer interval of 1105 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] [0mserver thread hitch warning: timer interval of 165 milliseconds
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 147 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ citizen-server-impl] sync thread hitch warning: timer interval of 128 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ script:connectqueue] QUEUE: JdsGallagher[steam:11000010b3cc647] was placed 1/1 in queue
+[38;5;173m[ script:connectqueue] QUEUE: JdsGallagher[steam:11000010b3cc647] is loading into the server
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 211 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 168 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[38;5;173m[ script:connectqueue] QUEUE: BielTugas[steam:11000015a69d540] was placed 1/1 in queue
+[ script:connectqueue] QUEUE: BielTugas[steam:11000015a69d540] is loading into the server
+[ citizen-server-impl] server thread hitch warning: timer interval of 201 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 172 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 180 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 106 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 167 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 195 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 169 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 281 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 509 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 232 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 289 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 173 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 160 milliseconds
+[38;5;134m[      script:qb-core] [qb-core:LOG] BielTugas PLAYER SAVED!
+[38;5;133m[script:qb-multichara] [qb-core] BielTugas (Citizen ID: TNZ88710) has succesfully loaded!
+[   script:ps-housing] SCRIPT ERROR: @ps-housing/server/server.lua:107: ps-housing was unable to execute a query!
+[   script:ps-housing] Query: SELECT * FROM properties WHERE owner_citizenid = ? AND apartment IS NOT NULL AND apartment <> ""
+[   script:ps-housing] ["TNZ88710"]
+[   script:ps-housing] Table 'legend-roleplay-db.properties' doesn't exist
+[   script:ps-housing] > callbackResponse (@ox_lib/imports/callback/server.lua:60)
+[   script:ps-housing] > handler (@ox_lib/imports/callback/server.lua:76)
+[   script:ps-housing] > logError (@oxmysql/dist/build.js:24889)
+[   script:ps-housing] > rawQuery (@oxmysql/dist/build.js:25056)
+[   script:ps-housing] > processTicksAndRejections (node:internal/process/task_queues:96)
+[   script:ps-housing] 
+[      script:qb-core] SCRIPT ERROR: citizen:/scripting/lua/scheduler.lua:739: SCRIPT ERROR: @qb-spawn/server.lua:6: qb-spawn was unable to execute a query!
+[      script:qb-core] Query: SELECT * FROM properties WHERE owner_citizenid = ?
+[      script:qb-core] ["TNZ88710"]
+[      script:qb-core] Table 'legend-roleplay-db.properties' doesn't exist
+[      script:qb-core] > ref (@qb-spawn/server.lua:6)
+[      script:qb-core] > logError (@oxmysql/dist/build.js:24889)
+[      script:qb-core] > rawQuery (@oxmysql/dist/build.js:25056)
+[      script:qb-core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[      script:qb-core] 
+[      script:qb-core] > TriggerCallback (@qb-core/server/functions.lua:365)
+[      script:qb-core] > handler (@qb-core/server/events.lua:104)
+[      script:qb-core] > logError (@oxmysql/dist/build.js:24889)
+[      script:qb-core] > rawQuery (@oxmysql/dist/build.js:25056)
+[      script:qb-core] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl] server thread hitch warning: timer interval of 620 milliseconds
+[38;5;134m[      script:qb-core] [qb-core:LOG] BielTugas PLAYER SAVED!
+[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ citizen-server-impl] network thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 251 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 275 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 315 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 124 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 376 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 1046 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 265 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 1038 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 314 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 2405 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 200 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 196 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 312 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 215 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 348 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 187 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 219 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 267 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 349 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 182 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 266 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 461 milliseconds
+[ script:ox_inventory] [info] Saving 1 inventories to the database
+[ citizen-server-impl] server thread hitch warning: timer interval of 444 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 245 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[38;5;135m[ script:ox_inventory] [info] Saved 1/1 players (398.5641 ms)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 239 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 122 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 1002 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 1029 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 222 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 195 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 227 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 146 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 181 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 121 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 136 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 223 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 381 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 281 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 174 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 133 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 139 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 193 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 281 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 297 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 306 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 202 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 268 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 146 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 200 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 589 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 419 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 194 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 293 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 265 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 268 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 202 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 169 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 105 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 204 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 181 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 163 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 286 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 249 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 256 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 144 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 170 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 128 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 187 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 340 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 350 milliseconds
+> txaReportResources
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] server thread hitch warning: timer interval of 620 milliseconds
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] server thread hitch warning: timer interval of 227 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 179 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+> refresh
+[38;5;83m[           resources] Scanning resources.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 125 milliseconds
+> start gta_vehicleDebug
+[38;5;176m[resources:qb-blackja] Warning: qb-blackjack exists in more than one place (C:\Users\Administrator\Desktop\Legend-Roleplay-QBCORE\resources\[legend-mods]\[casino]\qb-blackjack is used, the duplicate is C:\Users\Administrator\Desktop\Legend-Roleplay-QBCORE\resources\[legend-mods]\[script-qb]\[desatualizado]\qb-blackjack)
+[resources:qb-laprace] Warning: qb-lapraces exists in more than one place (C:\Users\Administrator\Desktop\Legend-Roleplay-QBCORE\resources\[legend-mods]\[script-qb]\[atualizados]\qb-lapraces is used, the duplicate is C:\Users\Administrator\Desktop\Legend-Roleplay-QBCORE\resources\[legend-mods]\[script-qb]\[desatualizado]\qb-lapraces)
+[ resources:meta_libs] Warning: meta_libs exists in more than one place (C:\Users\Administrator\Desktop\Legend-Roleplay-QBCORE\resources\[legend-mods]\[drone]\meta_libs is used, the duplicate is C:\Users\Administrator\Desktop\Legend-Roleplay-QBCORE\resources\[legend-mods]\[script-legend]\[script-NAO-MECHER]\[geral]\meta_libs)
+[           resources] Found 1 new resources, and refreshed 0/256 resources.
+[           resources] 3 warnings were encountered.
+[ citizen-server-impl] server thread hitch warning: timer interval of 5080 milliseconds
+[38;5;83m[           resources] Started resource gta_vehicleDebug
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 1258 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 565 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ script:connectqueue] QUEUE: JdsGallagher[steam:11000010b3cc647] was removed from the connecting queue because they timed out
+[ citizen-server-impl] server thread hitch warning: timer interval of 233 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 172 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 197 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] [0mserver thread hitch warning: timer interval of 382 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 176 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 190 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 441 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 442 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 445 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 820 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 174 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 228 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 694 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 488 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 488 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 438 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 255 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 277 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 189 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 292 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 232 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 221 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 238 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 583 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 568 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 244 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 219 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 331 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 178 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 220 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 264 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 155 milliseconds
+[      script:qb-core] [qb-core:LOG] BielTugas PLAYER SAVED!
+[ citizen-server-impl] server thread hitch warning: timer interval of 3154 milliseconds
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 167 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 123 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 203 milliseconds
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.ArgumentException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') <- System.Net.Http.HttpRequestException: IPv4 address 0.0.0.0 and IPv6 address ::0 are unspecified addresses that cannot be used as a target address. (Parameter 'hostName') (0.0.0.0:30130)
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 132 milliseconds
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-main] -> Quitting: SIGHUP received
+[38;5;134m[      script:qb-core] [qb-core:LOG] dfreire707 PLAYER SAVED!
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 415 milliseconds

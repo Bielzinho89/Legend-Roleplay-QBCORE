@@ -1,0 +1,106 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 1/17/2024, 6:34:57 AM
+================================================================
+
+================================================================
+======== Log Rotated - 1/17/2024, 6:34:57 AM                    
+================================================================
+[06:35:24][Diego_Freire1] logged in from 186.205.34.43 via citizenfx
+[06:36:58][Diego_Freire1] executed "RESTART SERVER"
+[06:37:38][Diego_Freire1] executed "RESTART SERVER"
+[06:39:01][Diego_Freire1] logged in via in-game ui
+[06:41:13][Diego_Freire1] executed "RESTART SERVER"
+[06:43:55][Diego_Freire1] logged in via in-game ui
+[06:45:22][Diego_Freire1] executed "RESTART SERVER"
+[06:47:54][Diego_Freire1] logged in via in-game ui
+[06:49:57][Diego_Freire1] executed "restart illenium-appearance"
+[06:50:55][Diego_Freire1] executed "RESTART SERVER"
+[06:58:41][Diego_Freire1] executed "RESTART SERVER"
+[07:00:21][Diego_Freire1] logged in via in-game ui
+[07:07:54][Diego_Freire1] logged in via in-game ui
+[07:33:39][Diego_Freire1] executed "RESTART SERVER"
+[07:34:19][Diego_Freire1] logged in from 186.205.34.43 via citizenfx
+[07:35:15][Diego_Freire1] logged in via in-game ui
+[07:40:14][Diego_Freire1] executed "RESTART SERVER"
+[07:41:36][Diego_Freire1] logged in via in-game ui
+[07:45:20][Diego_Freire1] executed "RESTART SERVER"
+[07:46:35][Diego_Freire1] logged in via in-game ui
+[07:53:39][Diego_Freire1] executed "restart qb-racing"
+[07:54:20][Diego_Freire1] executed "restart qb-racing"
+[08:03:09][Diego_Freire1] logged in via in-game ui
+[08:06:44][Diego_Freire1] logged in via in-game ui
+[08:08:16][Diego_Freire1] logged in via in-game ui
+[08:17:22][Diego_Freire1] Warned player [9] kurt: OI SEU VIADO
+[08:19:11][Diego_Freire1] logged in from via NUI iframe
+[08:19:39][Diego_Freire1] Revoked warn id WVSZ-L143 from kurt
+[08:24:20][Diego_Freire1] Adding admin 'dfreire707'.
+[08:24:20][Diego_Freire1] logged in via in-game ui
+[08:24:20][dfreire707] logged in via in-game ui
+[09:49:09][Diego_Freire1] executed "refresh"
+[09:49:16][Diego_Freire1] executed "restart carros"
+[09:52:30][Diego_Freire1] logged in via in-game ui
+[10:00:41][Diego_Freire1] executed "RESTART SERVER"
+[10:02:30][dfreire707] logged in via in-game ui
+[10:03:25][Diego_Freire1] logged in via in-game ui
+[10:16:40][dfreire707] logged in via in-game ui
+[10:42:27][Diego_Freire1] executed "RESTART SERVER"
+[10:44:02][Diego_Freire1] logged in via in-game ui
+[10:45:58][dfreire707] logged in via in-game ui
+[10:54:30][Diego_Freire1] logged in via in-game ui
+[11:23:53][Diego_Freire1] executed "RESTART SERVER"
+[11:26:06][Diego_Freire1] logged in via in-game ui
+[11:56:49][dfreire707] logged in via in-game ui
+[12:03:49][Diego_Freire1] logged in via in-game ui
+[12:23:15][dfreire707] logged in via in-game ui
+[13:20:47][Diego_Freire1] executed "stop stealshoes"
+[13:24:15][Diego_Freire1] DM to #JdsGallagher: VAI TOMAR NO CU
+[13:24:20][Diego_Freire1] Warned player [6] JdsGallagher: VAI TOMAR CU
+[13:24:40][Diego_Freire1] logged in from via NUI iframe
+[13:24:43][Diego_Freire1] Adding admin 'jdsgallagher'.
+[13:24:43][jdsgallagher] logged in via in-game ui
+[13:24:43][Diego_Freire1] logged in via in-game ui
+[13:24:43][dfreire707] logged in via in-game ui
+[13:24:50][Diego_Freire1] logged in from via NUI iframe
+[13:24:53][Diego_Freire1] Adding admin 'kurt'.
+[13:24:53][kurt] logged in via in-game ui
+[13:24:53][Diego_Freire1] logged in via in-game ui
+[13:24:53][jdsgallagher] logged in via in-game ui
+[13:24:53][dfreire707] logged in via in-game ui
+[13:25:09][Diego_Freire1] Editing user 'jdsgallagher'.
+[13:25:09][Diego_Freire1] logged in via in-game ui
+[13:25:09][kurt] logged in via in-game ui
+[13:25:09][jdsgallagher] logged in via in-game ui
+[13:25:09][dfreire707] logged in via in-game ui
+[13:25:12][jdsgallagher] Warned player [4] BielTugas: Teste
+[13:27:30][Diego_Freire1] Warned player [5] dfreire707: VAI TOMAR NO CU
+[13:28:46][dfreire707] logged in via in-game ui
+[13:30:07][dfreire707] logged in via in-game ui
+[13:30:32][Diego_Freire1] executed "restart qb-target"
+[13:31:07][Diego_Freire1] executed "RESTART SERVER"
+[13:35:54][Diego_Freire1] logged in via in-game ui
+[13:38:02][Diego_Freire1] executed "RESTART SERVER"
+[13:40:03][Diego_Freire1] logged in via in-game ui
+[13:41:14][dfreire707] logged in via in-game ui
+[13:52:19][Diego_Freire1] executed "RESTART SERVER"
+[13:54:15][Diego_Freire1] logged in via in-game ui
+[13:59:40][Diego_Freire1] executed "restart qb-inventory"
+[13:59:50][jdsgallagher] logged in via in-game ui
+[14:02:05][Diego_Freire1] executed "restart qb-smallresources"
+[14:03:18][dfreire707] logged in via in-game ui
+[14:04:24][dfreire707] logged in via in-game ui
+[14:20:09][Diego_Freire1] executed "RESTART SERVER"
+[14:21:49][Diego_Freire1] logged in via in-game ui
+[14:26:05][dfreire707] logged in via in-game ui
+[14:34:47][Diego_Freire1] executed "RESTART SERVER"
+[14:37:03][Diego_Freire1] logged in via in-game ui
+[14:40:34][Diego_Freire1] executed "restart qb-drone"
+[14:46:01][Diego_Freire1] executed "RESTART SERVER"
+[14:47:52][Diego_Freire1] logged in via in-game ui
+[14:53:22][dfreire707] logged in via in-game ui
+[14:54:51][Diego_Freire1] executed "start ds-mtd"
+[14:54:54][Diego_Freire1] executed "refresh"
+[14:54:55][Diego_Freire1] executed "start ds-mtd"
+[14:55:06][dfreire707] logged in via in-game ui
+[14:55:10][Diego_Freire1] executed "start ds-mdt"
+[15:01:56][jdsgallagher] logged in via in-game ui

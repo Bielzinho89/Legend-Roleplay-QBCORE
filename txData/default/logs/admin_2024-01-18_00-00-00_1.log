@@ -1,0 +1,55 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 1/18/2024, 9:04:19 AM
+================================================================
+
+================================================================
+======== Log Rotated - 1/18/2024, 9:04:19 AM                    
+================================================================
+[09:04:47][Diego_Freire1] logged in from 186.205.34.43 via citizenfx
+[09:17:26][dfreire707] logged in via in-game ui
+[09:20:10][Diego_Freire1] logged in via in-game ui
+[09:33:23][jdsgallagher] logged in via in-game ui
+[09:58:22][dfreire707] logged in via in-game ui
+[10:43:37][Diego_Freire1] logged in via in-game ui
+[11:04:25][Diego_Freire1] executed "restart legend-weedplanting"
+[11:27:57][Diego_Freire1] executed "restart legend-weedplanting"
+[11:28:01][Diego_Freire1] executed "refresh"
+[11:28:01][Diego_Freire1] executed "restart legend-weedplanting"
+[11:40:10][Diego_Freire1] executed "refresh"
+[11:40:11][Diego_Freire1] executed "restart legend-weedplanting"
+[11:41:15][Diego_Freire1] executed "refresh"
+[11:41:15][Diego_Freire1] executed "restart legend-weedplanting"
+[11:52:01][Diego_Freire1] executed "refresh"
+[11:52:29][Diego_Freire1] executed "restart carros"
+[11:54:41][Diego_Freire1] logged in via in-game ui
+[12:00:33][Diego_Freire1] executed "refresh"
+[12:00:33][Diego_Freire1] executed "restart carros"
+[12:02:42][Diego_Freire1] logged in via in-game ui
+[12:20:56][Diego_Freire1] executed "refresh"
+[12:20:57][Diego_Freire1] executed "restart carros"
+[12:46:47][jdsgallagher] logged in via in-game ui
+[13:11:00][Diego_Freire1] executed "start legend-mansao"
+[13:11:03][Diego_Freire1] executed "refresh"
+[13:11:08][Diego_Freire1] executed "start legend-mansao"
+[13:16:49][Diego_Freire1] logged in via in-game ui
+[13:17:56][dfreire707] logged in via in-game ui
+[14:05:39][Diego_Freire1] executed "refresh"
+[14:05:47][Diego_Freire1] executed "restart qb-inventory"
+[14:14:23][jdsgallagher] logged in via in-game ui
+[14:28:56][Diego_Freire1] executed "refresh"
+[14:28:57][Diego_Freire1] executed "start animacoes"
+[14:30:43][Diego_Freire1] logged in via in-game ui
+[14:31:54][Diego_Freire1] executed "refresh"
+[14:31:56][Diego_Freire1] executed "stop legend-anims"
+[14:32:01][Diego_Freire1] executed "restart animacoes"
+[14:32:50][Diego_Freire1] executed "refresh"
+[14:32:51][Diego_Freire1] executed "restart animacoes"
+[14:34:04][Diego_Freire1] executed "refresh"
+[14:34:04][Diego_Freire1] executed "restart animacoes"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 1/18/2024, 2:59:56 PM
+================================================================
+[15:02:47][dfreire707] logged in via in-game ui
+[19:41:22][jdsgallagher] logged in via in-game ui

@@ -1,0 +1,93 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 1/27/2024, 12:33:18 PM
+================================================================
+
+================================================================
+======== Log Rotated - 1/27/2024, 12:33:19 PM                   
+================================================================
+[12:36:07][MONITOR] Restarting server (server close detected).
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 6683 Starting - 1/27/2024, 12:36:16 PM
+================================================================
+[12:38:59][Diego_Freire1] logged in from 186.205.34.43 via citizenfx
+[12:53:06][Diego_Freire1] executed "refresh"
+[12:53:11][Diego_Freire1] executed "stop legend-fuel"
+[12:53:19][Diego_Freire1] executed "stop legend-hud"
+[12:53:24][Diego_Freire1] executed "refresh"
+[12:53:28][Diego_Freire1] executed "start ps-hud"
+[12:58:01][Diego_Freire1] executed "refresh"
+[12:58:09][Diego_Freire1] executed "refresh"
+[12:58:18][Diego_Freire1] executed "restart qb-radialmenu"
+[12:59:11][Diego_Freire1] executed "restart qb-radialmenu"
+[13:13:13][dfreire707] logged in via in-game ui
+[13:24:37][dfreire707] logged in via in-game ui
+[13:38:09][Diego_Freire1] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v7.0.0 atop fxserver 7359 Starting - 1/27/2024, 1:46:54 PM
+================================================================
+
+================================================================
+======== txAdmin v7.0.0 atop fxserver 7359 Starting - 1/27/2024, 1:56:00 PM
+================================================================
+
+================================================================
+======== txAdmin v7.0.0 atop fxserver 7359 Starting - 1/27/2024, 1:58:50 PM
+================================================================
+
+================================================================
+======== txAdmin v7.0.0 atop fxserver 7359 Starting - 1/27/2024, 5:49:01 PM
+================================================================
+[18:03:23][Diego_Freire1] logged in from 186.205.34.43 via cfxre
+[18:03:29][Diego_Freire1] Added d01bacd0d0cf3b22efd3f5e74056ba611849a444 to the whitelist.
+[18:03:39][Diego_Freire1] Adding admin 'bieltugas'.
+[18:05:14][bieltugas] Kicked #ZezoEz: BANIDO POR ATIRAR BUGADO
+[18:14:42][Diego_Freire1] executed "refresh"
+[18:14:46][Diego_Freire1] executed "restart [sistema-de-animacao]"
+[18:16:23][bieltugas] Changing own password.
+[18:17:11][Diego_Freire1] executed "refresh"
+[18:17:13][Diego_Freire1] executed "start scully_emotemenu"
+[18:17:15][Diego_Freire1] executed "restart scully_emotemenu"
+[18:19:03][Diego_Freire1] executed "refresh"
+[18:19:04][Diego_Freire1] executed "restart scully_emotemenu"
+[18:20:36][Diego_Freire1] executed "stop scoreboard"
+[18:26:20][Diego_Freire1] executed "stop lux_vehcontrol"
+[18:26:23][Diego_Freire1] executed "refresh"
+[18:26:34][Diego_Freire1] executed "start legend-vehcontrol"
+[18:26:38][Diego_Freire1] executed "start legend_vehcontrol"
+[18:26:40][Diego_Freire1] executed "refresh"
+[18:26:49][Diego_Freire1] executed "refresh"
+[18:26:56][Diego_Freire1] executed "restart qb-smallresource"
+[18:27:08][Diego_Freire1] executed "restart qb-smallresources"
+[18:29:43][Diego_Freire1] executed "restart scully_emotemenu"
+[18:29:48][Diego_Freire1] executed "refresh"
+[18:29:48][Diego_Freire1] executed "restart scully_emotemenu"
+[18:32:42][Diego_Freire1] executed "refresh"
+[18:32:42][Diego_Freire1] executed "restart scully_emotemenu"
+
+================================================================
+======== txAdmin v7.0.0 atop fxserver 7359 Starting - 1/27/2024, 6:35:48 PM
+================================================================
+[18:43:40][Diego_Freire1] logged in from 186.205.34.43 via cfxre
+[18:43:44][Diego_Freire1] executed "REFRESH"
+[18:43:55][Diego_Freire1] executed "restart qb-smallresources"
+[20:17:29][Diego_Freire1] executed "refresh"
+[20:17:46][Diego_Freire1] executed "restart qb-smallresources"
+[20:18:51][Diego_Freire1] executed "refresh"
+[20:18:51][Diego_Freire1] executed "restart qb-smallresources"
+[20:57:05][Diego_Freire1] executed "refresh"
+[20:57:06][Diego_Freire1] executed "restart qb-smallresources"
+[20:57:23][Diego_Freire1] executed "restart qb-garages"
+[20:57:42][Diego_Freire1] executed "restart qb-admin"
+[20:57:44][Diego_Freire1] executed "restart qb-adminmenuy"
+[20:57:46][Diego_Freire1] executed "restart qb-adminmenu"
+[21:18:17][Diego_Freire1] executed "restart qb-garages"
+[21:23:57][Diego_Freire1] Kicked #ZezoEz: PARA DE BRINCAR DE SOCO
+[21:24:01][Diego_Freire1] Kicked #NEGÃO_ALBINO: PARA DE BRINCAR DE SOCO
+[21:37:16][Diego_Freire1] executed "RESTART SERVER"
+[21:48:00][Diego_Freire1] executed "RESTART SERVER"
+[21:50:26][Diego_Freire1] executed "RESTART SERVER"
+[06:41:53][Diego_Freire1] executed "refresh"
+[06:41:55][Diego_Freire1] executed "start gta_vehicleDebug"

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Diego_Freire1",
+    "master": true,
+    "password_hash": "$2a$11$D1qNe3k.uePYTS52l.zyjeZeTJt4fHHMWWs4fm1elyBkQxGHkYep2",
+    "providers": {
+      "citizenfx": {
+        "id": "Diego_Freire1",
+        "identifier": "fivem:12904676",
+        "data": {
+          "name": "Legend-Sistema",
+          "profile": "https://forum.cfx.re/u/Legend-Sistema",
+          "nameid": "https://forum.cfx.re/internal/user/12904676",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/legend-sistema/256/4088003_2.png"
+        }
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "dfreire707",
+    "master": false,
+    "password_hash": "$2a$11$OW/zw4P8Pv9oicqb1UaC9OuUpNU05OJNGNJkzvVqSb54bSpc.P3ty",
+    "password_temporary": true,
+    "providers": {
+      "discord": {
+        "id": "906293818255622205",
+        "identifier": "discord:906293818255622205",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "jdsgallagher",
+    "master": false,
+    "password_hash": "$2a$11$N2AZ9l5ojsFGeFLYatEnbuMlU.x84LNrtTBB3jxFXOozFaRUKSuE2",
+    "password_temporary": true,
+    "providers": {
+      "discord": {
+        "id": "272203781372903443",
+        "identifier": "discord:272203781372903443",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  },
+  {
+    "name": "kurt",
+    "master": false,
+    "password_hash": "$2a$11$aWBK9284Ik79WyQCib4qnO4w6mX6ufC664AzDY5u9QLO9dLASI8.C",
+    "password_temporary": true,
+    "providers": {
+      "discord": {
+        "id": "873735949870325801",
+        "identifier": "discord:873735949870325801",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "bieltugas",
+    "master": false,
+    "password_hash": "$2a$11$YDIYi0NcY4n4VJYRpMP0fu.9YPHuuoLxAQaMEupHeKs2XmOwj6tn6",
+    "providers": {
+      "discord": {
+        "id": "742917501389766707",
+        "identifier": "discord:742917501389766707",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]
