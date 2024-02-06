@@ -1,6 +1,7 @@
 **/cache
 **/build
 **/sql
+**/resources\[legend-mods]\[obrigatorio]
 **/txData
 **/*.rar
 **/*.zip
