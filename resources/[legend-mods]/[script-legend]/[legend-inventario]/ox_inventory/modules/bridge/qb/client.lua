@@ -1,8 +1,8 @@
+local onLogout, Weapon = ...
 local QBCore = exports['qb-core']:GetCoreObject()
 local Inventory = require 'modules.inventory.client'
-local Weapon = require 'modules.weapon.client'
 
-RegisterNetEvent('QBCore:Client:OnPlayerUnload', client.onLogout)
+RegisterNetEvent('QBCore:Client:OnPlayerUnload', onLogout)
 
 RegisterNetEvent('QBCore:Player:SetPlayerData', function(data)
 	if source == '' or not PlayerData.loaded then return end
@@ -75,10 +75,6 @@ local function hasItem(items, amount)
 
     return count >= amount
 end
-
-AddStateBagChangeHandler('inv_busy', ('player:%s'):format(cache.serverId), function(_, _, value)
-	LocalPlayer.state:set('invBusy', value, false)
-end)
 
 AddEventHandler(('__cfx_export_qb-inventory_HasItem'), function(setCB)
 	setCB(hasItem)

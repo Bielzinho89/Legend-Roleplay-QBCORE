@@ -4,13 +4,12 @@ local shopTypes = {}
 local shops = {}
 local createBlip = require 'modules.utils.client'.CreateBlip
 
-for shopType, shopData in pairs(lib.load('data.shops') --[[@as table<string, OxShop>]]) do
+for shopType, shopData in pairs(data('shops') --[[@as table<string, OxShop>]]) do
 	local shop = {
 		name = shopData.name,
 		groups = shopData.groups or shopData.jobs,
 		blip = shopData.blip,
 		label = shopData.label,
-        icon = shopData.icon
 	}
 
 	if shared.target then
@@ -55,17 +54,20 @@ local function onEnterShop(point)
 		SetEntityInvincible(entity, true)
 		SetBlockingOfNonTemporaryEvents(entity, true)
 
-		exports.ox_target:addLocalEntity(entity, {
-            {
-                icon = point.icon or 'fas fa-shopping-basket',
-                label = point.label,
-                groups = point.groups,
-                onSelect = function()
-                    client.openInventory('shop', { id = point.invId, type = point.type })
-                end,
-                iconColor = point.iconColor,
-                distance = point.shopDistance or 2.0
-            }
+		exports.qtarget:AddTargetEntity(entity, {
+			options = {
+				{
+					icon = point.icon or 'fas fa-shopping-basket',
+					label = point.label,
+					job = point.groups,
+					action = function()
+						client.openInventory('shop', { id = point.invId, type = point.type })
+					end,
+					iconColor = point.iconColor,
+				}
+			},
+
+			distance = point.shopDistance or 2.0
 		})
 
 		point.entity = entity
@@ -79,7 +81,7 @@ local function onExitShop(point)
 
 	if not entity then return end
 
-	exports.ox_target:removeLocalEntity(entity)
+	exports.qtarget:RemoveTargetEntity(entity, point.label)
 	Utils.DeleteEntity(entity)
 
 	point.entity = nil
@@ -94,8 +96,7 @@ local function wipeShops()
 		local shop = shops[i]
 
 		if shop.zoneId then
-            exports.ox_target:removeZone(shop.zoneId)
-            shop.zoneId = nil
+			exports.qtarget:RemoveZone(shop.zoneId)
 		end
 
 		if shop.remove then
@@ -125,17 +126,18 @@ local function refreshShops()
 			if shop.model then
 				if not hasShopAccess(shop) then goto skipLoop end
 
-				exports.ox_target:removeModel(shop.model, shop.name)
-				exports.ox_target:addModel(shop.model, {
-                    {
-                        name = shop.name,
-                        icon = shop.icon or 'fas fa-shopping-basket',
-                        label = label,
-                        onSelect = function()
-                            client.openInventory('shop', { type = type })
-                        end,
-                        distance = 2
-                    },
+				exports.qtarget:RemoveTargetModel(shop.model, label)
+				exports.qtarget:AddTargetModel(shop.model, {
+					options = {
+						{
+							icon = shop.icon or 'fas fa-shopping-basket',
+							label = label,
+							action = function()
+								client.openInventory('shop', { type = type })
+							end
+						},
+					},
+					distance = 2
 				})
 			elseif shop.targets then
 				for i = 1, #shop.targets do
@@ -163,26 +165,37 @@ local function refreshShops()
 							onExit = onExitShop,
 							shopDistance = target.distance,
 						})
-					else
+					elseif target.loc then
 						if not hasShopAccess(shop) then goto nextShop end
 
 						id += 1
 
 						shops[id] = {
-							zoneId = Utils.CreateBoxZone(target, {
-                                {
-                                    name = shopid,
-                                    icon = 'fas fa-shopping-basket',
-                                    label = label,
-                                    groups = shop.groups,
-                                    onSelect = function()
-                                        client.openInventory('shop', { id = i, type = type })
-                                    end,
-                                    iconColor = target.iconColor,
-                                }
-                            }),
-							blip = blip and createBlip(blip, target.coords)
+							zoneId = shopid,
+							blip = blip and createBlip(blip, target.loc)
 						}
+
+						exports.qtarget:AddBoxZone(shopid, target.loc, target.length or 0.5, target.width or 0.5, {
+							name = shopid,
+							heading = target.heading or 0.0,
+							debugPoly = target.debug,
+							minZ = target.minZ,
+							maxZ = target.maxZ,
+							drawSprite = target.drawSprite,
+						}, {
+							options = {
+								{
+									icon = 'fas fa-shopping-basket',
+									label = label,
+									job = shop.groups,
+									action = function()
+										client.openInventory('shop', { id = i, type = type })
+									end,
+									iconColor = target.iconColor,
+								},
+							},
+							distance = target.distance or 2.0
+						})
 					end
 
 					::nextShop::

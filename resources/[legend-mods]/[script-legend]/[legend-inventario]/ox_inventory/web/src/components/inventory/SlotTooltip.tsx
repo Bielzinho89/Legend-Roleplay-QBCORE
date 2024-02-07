@@ -1,17 +1,14 @@
 import { Inventory, SlotWithItem } from '../../typings';
-import React, { Fragment, useMemo } from 'react';
+import { Fragment, useMemo } from 'react';
+import { Divider } from '@mui/material';
 import { Items } from '../../store/items';
 import { Locale } from '../../store/locale';
 import ReactMarkdown from 'react-markdown';
 import { useAppSelector } from '../../store';
 import ClockIcon from '../utils/icons/ClockIcon';
 import { getItemUrl } from '../../helpers';
-import Divider from '../utils/Divider';
 
-const SlotTooltip: React.ForwardRefRenderFunction<
-  HTMLDivElement,
-  { item: SlotWithItem; inventoryType: Inventory['type']; style: React.CSSProperties }
-> = ({ item, inventoryType, style }, ref) => {
+const SlotTooltip: React.FC<{ item: SlotWithItem; inventory: Inventory }> = ({ item, inventory }) => {
   const additionalMetadata = useAppSelector((state) => state.inventory.additionalMetadata);
   const itemData = useMemo(() => Items[item.name], [item]);
   const ingredients = useMemo(() => {
@@ -24,17 +21,17 @@ const SlotTooltip: React.ForwardRefRenderFunction<
   return (
     <>
       {!itemData ? (
-        <div className="tooltip-wrapper" ref={ref} style={style}>
+        <div className="tooltip-wrapper">
           <div className="tooltip-header-wrapper">
             <p>{item.name}</p>
           </div>
           <Divider />
         </div>
       ) : (
-        <div style={{ ...style }} className="tooltip-wrapper" ref={ref}>
+        <div className="tooltip-wrapper">
           <div className="tooltip-header-wrapper">
             <p>{item.metadata?.label || itemData.label || item.name}</p>
-            {inventoryType === 'crafting' ? (
+            {inventory.type === 'crafting' ? (
               <div className="tooltip-crafting-duration">
                 <ClockIcon />
                 <p>{(item.duration !== undefined ? item.duration : 3000) / 1000}s</p>
@@ -49,7 +46,7 @@ const SlotTooltip: React.ForwardRefRenderFunction<
               <ReactMarkdown className="tooltip-markdown">{description}</ReactMarkdown>
             </div>
           )}
-          {inventoryType !== 'crafting' ? (
+          {inventory.type !== 'crafting' ? (
             <>
               {item.durability !== undefined && (
                 <p>
@@ -84,11 +81,11 @@ const SlotTooltip: React.ForwardRefRenderFunction<
                   {Locale.ui_tint}: {item.metadata.weapontint}
                 </p>
               )}
-              {additionalMetadata.map((data: { metadata: string; value: string }, index: number) => (
+              {Object.keys(additionalMetadata).map((data: string, index: number) => (
                 <Fragment key={`metadata-${index}`}>
-                  {item.metadata && item.metadata[data.metadata] && (
+                  {item.metadata && item.metadata[data] && (
                     <p>
-                      {data.value}: {item.metadata[data.metadata]}
+                      {additionalMetadata[data]}: {item.metadata[data]}
                     </p>
                   )}
                 </Fragment>
@@ -120,4 +117,4 @@ const SlotTooltip: React.ForwardRefRenderFunction<
   );
 };
 
-export default React.forwardRef(SlotTooltip);
+export default SlotTooltip;

@@ -1,6 +1,6 @@
-CreateThread(function() lib.load('@ox_core.imports.client') end)
+local onLogout = ...
 
-RegisterNetEvent('ox:playerLogout', client.onLogout)
+RegisterNetEvent('ox:playerLogout', onLogout)
 
 RegisterNetEvent('ox:setGroup', function(name, grade)
 	PlayerData.groups[name] = grade

@@ -1,9 +1,14 @@
-local Inventory = require 'modules.inventory.server'
-local Items = require 'modules.items.server'
+local playerDropped = ...
+local Inventory, Items
+
+CreateThread(function()
+	Inventory = require 'modules.inventory.server'
+	Items = require 'modules.items.server'
+end)
 
 local QBCore
 
-AddEventHandler('QBCore:Server:OnPlayerUnload', server.playerDropped)
+AddEventHandler('QBCore:Server:OnPlayerUnload', playerDropped)
 
 AddEventHandler('QBCore:Server:OnJobUpdate', function(source, job)
 	local inventory = Inventory(source)
@@ -38,6 +43,14 @@ local function setItemCompatibilityProps(item)
 end
 
 local function setupPlayer(Player)
+	QBCore.Functions.AddPlayerField(Player.PlayerData.source, 'syncInventory', function(_, _, items, money)
+		Player.Functions.SetPlayerData('items', items)
+
+		if money.money then
+			Player.Functions.SetMoney('cash', money.money, "Sync money with inventory")
+		end
+	end)
+
 	Player.PlayerData.inventory = Player.PlayerData.items
 	Player.PlayerData.identifier = Player.PlayerData.citizenid
 
@@ -95,6 +108,11 @@ SetTimeout(500, function()
 	for _, Player in pairs(QBCore.Functions.GetQBPlayers()) do setupPlayer(Player) end
 end)
 
+-- Accounts that need to be synced with physical items
+server.accounts = {
+	money = 0
+}
+
 function server.UseItem(source, itemName, data)
 	local cb = QBCore.Functions.CanUseItem(itemName)
 	return cb and cb(source, data)
@@ -102,11 +120,7 @@ end
 
 AddEventHandler('QBCore:Server:OnMoneyChange', function(src, account, amount, changeType)
 	if account ~= "cash" then return end
-
 	local item = Inventory.GetItem(src, 'money', nil, false)
-
-    if not item then return end
-
 	Inventory.SetItem(src, 'money', changeType == "set" and amount or changeType == "remove" and item.count - amount or changeType == "add" and item.count + amount)
 end)
 
@@ -130,16 +144,16 @@ end
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function server.syncInventory(inv)
-	local accounts = Inventory.GetAccountItemCounts(inv)
+	local money = table.clone(server.accounts)
 
-    if accounts then
-        local player = server.GetPlayerFromId(inv.id)
-        player.Functions.SetPlayerData('items', inv.items)
-
-        if accounts.money and accounts.money ~= player.Functions.GetMoney('cash') then
-			player.Functions.SetMoney('cash', accounts.money, "Sync money with inventory")
+	for _, v in pairs(inv.items) do
+		if money[v.name] then
+			money[v.name] += v.count
 		end
 	end
+
+	local player = server.GetPlayerFromId(inv.id)
+	player.syncInventory(inv.weight, inv.maxWeight, inv.items, money)
 end
 
 ---@diagnostic disable-next-line: duplicate-set-field
@@ -153,14 +167,14 @@ function server.buyLicense(inv, license)
 	local player = server.GetPlayerFromId(inv.id)
 	if not player then return end
 
-	if player.PlayerData.metadata.licences[license.name] then
+	if player.PlayerData.metadata.licences[license] then
 		return false, 'already_have'
 	elseif Inventory.GetItem(inv, 'money', false, true) < license.price then
 		return false, 'can_not_afford'
 	end
 
 	Inventory.RemoveItem(inv, 'money', license.price)
-	player.PlayerData.metadata.licences[license.name] = true
+	player.PlayerData.metadata.licences.weapon = true
 	player.Functions.SetMetaData('licences', player.PlayerData.metadata.licences)
 
 	return true, 'have_purchased'

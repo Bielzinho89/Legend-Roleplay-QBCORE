@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import InventoryComponent from './components/inventory';
 import useNuiEvent from './hooks/useNuiEvent';
 import { Items } from './store/items';
@@ -20,7 +21,7 @@ debugData([
         id: 'test',
         type: 'player',
         slots: 50,
-        label: 'Bob Smith',
+        name: 'Bob Smith',
         weight: 3000,
         maxWeight: 5000,
         items: [
@@ -47,28 +48,78 @@ debugData([
             metadata: { description: 'Generic item description' },
           },
           { slot: 5, name: 'water', weight: 100, count: 1 },
-          {
-            slot: 6,
-            name: 'backwoods',
-            weight: 100,
-            count: 1,
-            metadata: {
-              label: 'Russian Cream',
-              imageurl: 'https://i.imgur.com/2xHhTTz.png',
-            },
-          },
+          { slot: 6, name: 'backwoods', weight: 100, count: 1, metadata: {
+            label: 'Russian Cream',
+            imageurl: "https://i.imgur.com/2xHhTTz.png"
+          }},
         ],
       },
       rightInventory: {
         id: 'shop',
-        type: 'crafting',
-        slots: 5000,
-        label: 'Bob Smith',
+        type: 'shop',
+        slots: 50,
+        name: 'Bob Smith',
         weight: 3000,
         maxWeight: 5000,
         items: [
           {
             slot: 1,
+            name: 'lockpick',
+            weight: 500,
+            price: 300,
+            ingredients: {
+              iron: 5,
+              copper: 12,
+              powersaw: 0.1,
+            },
+            metadata: {
+              description: 'Simple lockpick that breaks easily and can pick basic door locks',
+            },
+          },
+          {
+            slot: 2,
+            name: 'lockpick',
+            weight: 500,
+            price: 300,
+            ingredients: {
+              iron: 5,
+              copper: 12,
+              powersaw: 0.1,
+            },
+            metadata: {
+              description: 'Simple lockpick that breaks easily and can pick basic door locks',
+            },
+          },
+          {
+            slot: 3,
+            name: 'lockpick',
+            weight: 500,
+            price: 300,
+            ingredients: {
+              iron: 5,
+              copper: 12,
+              powersaw: 0.1,
+            },
+            metadata: {
+              description: 'Simple lockpick that breaks easily and can pick basic door locks',
+            },
+          },
+          {
+            slot: 4,
+            name: 'lockpick',
+            weight: 500,
+            price: 300,
+            ingredients: {
+              iron: 5,
+              copper: 12,
+              powersaw: 0.1,
+            },
+            metadata: {
+              description: 'Simple lockpick that breaks easily and can pick basic door locks',
+            },
+          },
+          {
+            slot: 5,
             name: 'lockpick',
             weight: 500,
             price: 300,
@@ -111,16 +162,12 @@ const App: React.FC = () => {
   });
 
   return (
-    <div className="app-wrapper">
+    <Box sx={{ height: '100%', width: '100%', color: 'white' }}>
       <InventoryComponent />
       <DragPreview />
       <KeyPress />
-    </div>
+    </Box>
   );
 };
-
-addEventListener("dragstart", function(event) {
-  event.preventDefault()
-})
 
 export default App;

@@ -25,17 +25,17 @@ local trash = {
 ---@param name string?
 ---@return table?
 local function getItem(_, name)
-    if not name then return ItemList end
+	if name then
+		name = name:lower()
 
-	if type(name) ~= 'string' then return end
+		if name:sub(0, 7) == 'weapon_' then
+			name = name:upper()
+		end
 
-    name = name:lower()
+		return ItemList[name]
+	end
 
-    if name:sub(0, 7) == 'weapon_' then
-        name = name:upper()
-    end
-
-    return ItemList[name]
+	return ItemList
 end
 
 setmetatable(Items --[[@as table]], {
@@ -219,6 +219,12 @@ CreateThread(function()
 		Wait(500)
 	end
 
+	local clearStashes = GetConvar('inventory:clearstashes', '6 MONTH')
+
+	if clearStashes ~= '' then
+		pcall(MySQL.query.await, ('DELETE FROM ox_inventory WHERE lastupdated < (NOW() - INTERVAL %s) OR data = "[]"'):format(clearStashes))
+	end
+
 	local count = 0
 
 	Wait(1000)
@@ -266,7 +272,7 @@ local TriggerEventHooks = require 'modules.hooks.server'
 
 ---@param inv inventory
 ---@param item OxServerItem
----@param metadata any
+---@param metadata table<string, any> | string | nil
 ---@param count number
 ---@return table, number
 ---Generates metadata for new items being created through AddItem, buyItem, etc.
@@ -285,8 +291,13 @@ function Items.Metadata(inv, item, metadata, count)
 
 		if metadata.registered ~= false and (metadata.ammo or item.name == 'WEAPON_STUNGUN') then
 			local registered = type(metadata.registered) == 'string' and metadata.registered or inv?.player?.name
-			metadata.registered = registered
-			metadata.serial = GenerateSerial(metadata.serial)
+
+			if registered then
+				metadata.registered = registered
+				metadata.serial = GenerateSerial(metadata.serial)
+			else
+				metadata.registered = nil
+			end
 		end
 
 		if item.hash == `WEAPON_PETROLCAN` or item.hash == `WEAPON_HAZARDCAN` or item.hash == `WEAPON_FERTILIZERCAN` or item.hash == `WEAPON_FIREEXTINGUISHER` then
@@ -361,7 +372,7 @@ function Items.CheckMetadata(metadata, item, name, ostime)
 	local durability = metadata.durability
 
 	if durability then
-		if durability < 0 or durability > 100 and ostime >= durability then
+		if durability > 100 and ostime >= durability then
 			metadata.durability = 0
 		end
 	else
@@ -401,41 +412,6 @@ function Items.CheckMetadata(metadata, item, name, ostime)
 	end
 
 	return metadata
-end
-
----Update item durability, and call `Inventory.RemoveItem` if it was removed from decay.
----@param inv OxInventory
----@param slot SlotWithItem
----@param item OxServerItem
----@param value? number
----@param ostime? number
----@return boolean? removed
-function Items.UpdateDurability(inv, slot, item, value, ostime)
-    local durability = slot.metadata.durability or value
-
-    if not durability then return end
-
-    if value then
-        durability = value
-    elseif ostime and durability > 100 and ostime >= durability then
-        durability = 0
-    end
-
-    if item.decay and durability == 0 then
-        return Inventory.RemoveItem(inv, slot.name, slot.count, nil, slot.slot)
-    end
-
-    if slot.metadata.durability == durability then return end
-
-    inv.changed = true
-    slot.metadata.durability = durability
-
-    inv:syncSlotsWithClients({
-        {
-            item = slot,
-            inventory = inv.id
-        }
-    }, true)
 end
 
 local function Item(name, cb)

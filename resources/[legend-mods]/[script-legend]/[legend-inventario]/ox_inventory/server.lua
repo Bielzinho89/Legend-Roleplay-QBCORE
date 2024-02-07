@@ -94,7 +94,7 @@ end
 
 ---@param source number
 ---@param invType string
----@param data? string|number|table
+---@param data string|number|table
 ---@param ignoreSecurityChecks boolean?
 ---@return boolean|table|nil
 ---@return table?
@@ -104,12 +104,7 @@ local function openInventory(source, invType, data, ignoreSecurityChecks)
 	local left = Inventory(source) --[[@as OxInventory]]
 	local right, closestCoords
 
-    left:closeInventory(true)
-	Inventory.CloseAll(left, source)
-
-    if invType == 'player' and data == source then
-        data = nil
-    end
+	Inventory.CloseAll(left, (invType == 'drop' or invType == 'container' or not invType) and source)
 
 	if data then
 		if invType == 'stash' then
@@ -141,7 +136,7 @@ local function openInventory(source, invType, data, ignoreSecurityChecks)
 				end
 			end
 		elseif invType == 'container' then
-			left.containerSlot = data --[[@as number]]
+			left.containerSlot = data
 			data = left.items[data]
 
 			if data then
@@ -166,8 +161,6 @@ local function openInventory(source, invType, data, ignoreSecurityChecks)
 		if invType == 'container' then hookPayload.slot = left.containerSlot end
 
 		if not TriggerEventHooks('openInventory', hookPayload) then return end
-
-        if left == right then return end
 
 		if right.player then
 			if right.open then return end
@@ -224,7 +217,7 @@ end)
 ---@param invType string
 ---@param data string|number|table
 exports('forceOpenInventory', function(playerId, invType, data)
-	local left, right = openInventory(playerId, invType, data, true)
+	local left, right = openInventory(playerId, invType, data)
 
 	if left and right then
 		TriggerClientEvent('ox_inventory:forceOpenInventory', playerId, left, right)
@@ -232,7 +225,7 @@ exports('forceOpenInventory', function(playerId, invType, data)
 	end
 end)
 
-local Licenses = lib.load('data.licenses')
+local Licenses = data 'licenses'
 
 lib.callback.register('ox_inventory:buyLicense', function(source, id)
 	local license = Licenses[id]
@@ -263,25 +256,6 @@ lib.callback.register('ox_inventory:getInventory', function(source, id)
 	}
 end)
 
-RegisterNetEvent('ox_inventory:usedItemInternal', function(slot)
-    local inventory = Inventory(source)
-
-    if not inventory then return end
-
-    local item = inventory.usingItem
-
-    if not item or item.slot ~= slot then
-        ---@todo
-        DropPlayer(inventory.id, 'sussy')
-
-        return
-    end
-
-    TriggerEvent('ox_inventory:usedItem', inventory.id, item.name, item.slot, next(item.metadata) and item.metadata)
-
-    inventory.usingItem = nil
-end)
-
 ---@param source number
 ---@param itemName string
 ---@param slot number?
@@ -306,7 +280,8 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 				local ostime = os.time()
 
 				if ostime > durability then
-                    Items.UpdateDurability(inventory, data, item, 0)
+					inventory.items[slot].metadata.durability = 0
+
 					return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('no_durability', label) })
 				elseif consume ~= 0 and consume < 1 then
 					local degrade = (data.metadata.degrade or item.degrade) * 60
@@ -328,7 +303,7 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 		end
 
 		if item and data and data.count > 0 and data.name == item.name then
-			data = {name=data.name, label=label, count=data.count, slot=slot, metadata=data.metadata, weight=data.weight}
+			data = {name=data.name, label=label, count=data.count, slot=slot, metadata=data.metadata}
 
 			if item.ammo then
 				if inventory.weapon then
@@ -354,7 +329,6 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 					return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('item_not_enough', item.name) })
 				end
 			elseif not item.weapon and server.UseItem then
-                inventory.usingItem = data
 				-- This is used to call an external useItem function, i.e. ESX.UseItem / QBCore.Functions.CanUseItem
 				-- If an error is being thrown on item use there is no internal solution. We previously kept a list
 				-- of usable items which led to issues when restarting resources (for obvious reasons), but config
@@ -365,7 +339,6 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 
 			data.consume = consume
 
-            ---@type boolean
 			local success = lib.callback.await('ox_inventory:usingItem', source, data)
 
 			if item.weapon then
@@ -373,8 +346,6 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 			end
 
 			if not success then return end
-
-            inventory.usingItem = data
 
 			if consume and consume ~= 0 and not data.component then
 				data = inventory.items[data.slot]
@@ -398,13 +369,19 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 							local newItem = Inventory.SetSlot(inventory, item, 1, table.deepclone(data.metadata), emptySlot)
 
 							if newItem then
-                                Items.UpdateDurability(inventory, newItem, item, durability)
+								newItem.metadata.durability = durability
+
+								inventory:syncSlotsWithPlayer({
+									{
+										item = newItem,
+									}
+								}, inventory.weight)
 							end
 						end
 
 						durability = 0
 					else
-                        Items.UpdateDurability(inventory, data, item, durability)
+						data.metadata.durability = durability
 					end
 
 					if durability <= 0 then
@@ -416,6 +393,12 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 					Inventory.RemoveItem(inventory.id, data.name, consume < 1 and 1 or consume, nil, data.slot)
 				else
 					inventory.changed = true
+
+					inventory:syncSlotsWithPlayer({
+						{
+							item = inventory.items[data.slot],
+						}
+					}, inventory.weight)
 
 					if server.syncInventory then server.syncInventory(inventory) end
 				end
@@ -553,7 +536,7 @@ lib.addCommand('clearevidence', {
 	local hasPermission = group and server.isPlayerBoss(source, group, grade)
 
 	if hasPermission then
-		MySQL.query('DELETE FROM ox_inventory WHERE name = ?', {('evidence-%s'):format(args.locker)})
+		MySQL.query('DELETE FROM ox_inventory WHERE name = ?', {('evidence-%s'):format(args.evidence)})
 	end
 end)
 
@@ -594,7 +577,7 @@ lib.addCommand('saveinv', {
 	},
 	restricted = 'group.admin',
 }, function(source, args)
-	Inventory.SaveInventories(args.lock == 'true', false)
+	Inventory.SaveInventories(args.lock == 'true')
 end)
 
 lib.addCommand('viewinv', {
@@ -604,5 +587,12 @@ lib.addCommand('viewinv', {
 	},
 	restricted = 'group.admin',
 }, function(source, args)
-	Inventory.InspectInventory(source, tonumber(args.invId) or args.invId)
+	local invId = tonumber(args.invId) or args.invId
+	local inventory = invId ~= source and Inventory(invId)
+	local playerInventory = Inventory(source)
+
+	if playerInventory and inventory then
+		playerInventory:openInventory(inventory)
+		TriggerClientEvent('ox_inventory:viewInventory', source, inventory)
+	end
 end)

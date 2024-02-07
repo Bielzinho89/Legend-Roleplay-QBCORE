@@ -1,7 +1,12 @@
-local Inventory = require 'modules.inventory.server'
-local Items = require 'modules.items.server'
+local playerDropped = ...
+local Inventory, Items
 
-AddEventHandler('esx:playerDropped', server.playerDropped)
+CreateThread(function()
+	Inventory = require 'modules.inventory.server'
+	Items = require 'modules.items.server'
+end)
+
+AddEventHandler('esx:playerDropped', playerDropped)
 
 AddEventHandler('esx:setJob', function(source, job, lastJob)
 	local inventory = Inventory(source)
@@ -27,7 +32,11 @@ SetTimeout(500, function()
 	end
 end)
 
-server.accounts.black_money = 0
+-- Accounts that need to be synced with physical items
+server.accounts = {
+	money = 0,
+	black_money = 0,
+}
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function server.setPlayerData(player)
@@ -46,12 +55,16 @@ end
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function server.syncInventory(inv)
-	local accounts = Inventory.GetAccountItemCounts(inv)
+	local money = table.clone(server.accounts)
 
-    if accounts then
-        local player = server.GetPlayerFromId(inv.id)
-        player.syncInventory(inv.weight, inv.maxWeight, inv.items, accounts)
-    end
+	for _, v in pairs(inv.items) do
+		if money[v.name] then
+			money[v.name] += v.count
+		end
+	end
+
+	local player = server.GetPlayerFromId(inv.id)
+	player.syncInventory(inv.weight, inv.maxWeight, inv.items, money)
 end
 
 ---@diagnostic disable-next-line: duplicate-set-field

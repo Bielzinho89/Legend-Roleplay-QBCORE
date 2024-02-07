@@ -1,57 +1,94 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Inventory } from '../../typings';
 import WeightBar from '../utils/WeightBar';
 import InventorySlot from './InventorySlot';
+import InventoryContext from './InventoryContext';
 import { getTotalWeight } from '../../helpers';
-import { useAppSelector } from '../../store';
-import { useIntersection } from '../../hooks/useIntersection';
-
-const PAGE_SIZE = 30;
+import { createPortal } from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircle, faWeight, faWeightHanging } from '@fortawesome/free-solid-svg-icons';
 
 const InventoryGrid: React.FC<{ inventory: Inventory }> = ({ inventory }) => {
   const weight = React.useMemo(
-    () => (inventory.maxWeight !== undefined ? Math.floor(getTotalWeight(inventory.items) * 1000) / 1000 : 0),
+    () => (inventory.maxWeight !== undefined ? Math.floor(getTotalWeight(inventory.items)*1000)/1000 : 0),
     [inventory.maxWeight, inventory.items]
   );
-  const [page, setPage] = React.useState(0);
-  const containerRef = useRef(null);
-  const { ref, entry } = useIntersection({ threshold: 0.5 });
-  const isBusy = useAppSelector((state) => state.inventory.isBusy);
-
-  React.useEffect(() => {
-    if (entry && entry.isIntersecting) {
-      setPage((prev) => ++prev);
-    }
-  }, [entry]);
+  const hotInv = inventory.items.slice(0,5)
   return (
     <>
-      <div className="inventory-grid-wrapper" style={{ pointerEvents: isBusy ? 'none' : 'auto' }}>
+
+
+
+
+
+
+
+      <div className="inventory-grid-wrapper">
         <div>
+          <div className='inv-name'>{inventory.label}</div>
           <div className="inventory-grid-header-wrapper">
-            <p>{inventory.label}</p>
             {inventory.maxWeight && (
-              <p>
-                {weight / 1000}/{inventory.maxWeight / 1000}kg
-              </p>
+              <>
+              <div>
+                <FontAwesomeIcon icon={faWeightHanging} />
+              </div>
+              <div>
+                {weight / 1000}/{inventory.maxWeight / 1000}KG
+              </div>
+              </>
             )}
           </div>
           <WeightBar percent={inventory.maxWeight ? (weight / inventory.maxWeight) * 100 : 0} />
         </div>
-        <div className="inventory-grid-container" ref={containerRef}>
+
+
+        <div className={
+          inventory.type === 'player'
+          ? "inventory-grid-container"
+          : "secinventory-grid-container"
+        }
+        >
           <>
-            {inventory.items.slice(0, (page + 1) * PAGE_SIZE).map((item, index) => (
-              <InventorySlot
-                key={`${inventory.type}-${inventory.id}-${item.slot}`}
-                item={item}
-                ref={index === (page + 1) * PAGE_SIZE - 1 ? ref : null}
-                inventoryType={inventory.type}
-                inventoryGroups={inventory.groups}
-                inventoryId={inventory.id}
-              />
-            ))}
-          </>
+          {inventory.items.map((item, index) => {
+            if(index < 5 && inventory.type==='player') {
+              return ''
+            }
+            return <InventorySlot key={`${inventory.type}-${inventory.id}-${item.slot}`} item={item} inventory={inventory} />
+          })}
+            {inventory.type === 'player' && createPortal(<InventoryContext />, document.body)} 
+          </> 
         </div>
+
+
+        <div className='hotbar-title'>
+        <div className={
+          inventory.type === 'player'
+          ?"inventory-Hotbart"
+          :"secinventory-Hotbart"
+        }
+        >
+          Hotbar
+          <div className='hotbarline'></div>
+        </div>
+        </div>
+
+        <div className={
+          inventory.type === 'player'
+          ?"secinventory-hotslot-grid-container"
+          :"inventory-hotslot-grid-container"
+        }
+        >
+          <>
+          
+          {hotInv.map((item) => (
+          <InventorySlot key={`${inventory.type}-${inventory.id}-${item.slot}`} item={item} inventory={inventory} />
+          ))}
+            {inventory.type === 'player' && createPortal(<InventoryContext />, document.body)} 
+          </> 
+        </div>
+
       </div>
+
     </>
   );
 };

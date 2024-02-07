@@ -1,4 +1,4 @@
-import { canStack, findAvailableSlot, getTargetInventory, isSlotWithItem } from '../helpers';
+import { isSlotWithItem, findAvailableSlot, getTargetInventory, canStack } from '../helpers';
 import { validateMove } from '../thunks/validateItems';
 import { store } from '../store';
 import { DragSource, DropTarget, InventoryType, SlotWithItem } from '../typings';
