@@ -6233,4 +6233,15 @@ Marked for Police Seizure",
 			image = "gruppe62.png",
 		}
 	},
+
+	["payticket"] = {
+		label = "Receipt",
+		weight = 150,
+		stack = true,
+		close = false,
+		description = "Cash these in at the bank!",
+		client = {
+			image = "ticket.png",
+		}
+	},
 }

@@ -1414,6 +1414,10 @@ QBShared.Items = {
 	["keya"]                         = {["name"] = "keya",                          ["label"] = "Labkey A",                 ["weight"] = 0,         ["type"] = "item",      ["image"] = "keya.png",                 ["unique"] = true,      ["useable"] = false,    ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Labkey A.."},
 	["fertilizer"]                   = {["name"] = "fertilizer",                    ["label"] = "Fertilizer",               ["weight"] = 0,         ["type"] = "item",      ["image"] = "fertilizer.png",           ["unique"] = true,      ["useable"] = false,    ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Fertilizante"},
 
+	-- PAYMENTS
+	["payticket"] 					 = {["name"] = "payticket", 				["label"] = "Receipt", 	     			["weight"] = 150, 		["type"] = "item", 		["image"] = "ticket.png", 				["unique"] = false,   	["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "Cash these in at the bank!"},
+
+
 }
 
 
