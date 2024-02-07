@@ -12,7 +12,7 @@
     max-width: 35vh;
     top: 10vh;
     left: 10vh;
-    background-color: #161923f2;
+    background-color: #000000f2;
     border-radius: 5px;
     box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
     border-radius: .8vh;
@@ -30,7 +30,7 @@
 }
 
 .v-btn.location:hover {
-    background-color: #a90d2ca6!important;
+    background-color: #ff7300cb!important;
     transition: 300ms;
 }
 
@@ -43,11 +43,11 @@
 }
 
 .v-btn.location.selected {
-    background-color: #a90d2ca6!important;
+    background-color: #ff7300cb!important;
 }
 
 .submit-spawn {
-    background-color: rgb(47 134 67)!important;
+    background-color: #ff7300cb!important;
     width: 100%;
     margin-top: 1.5vh;
     transition: 0.2s;

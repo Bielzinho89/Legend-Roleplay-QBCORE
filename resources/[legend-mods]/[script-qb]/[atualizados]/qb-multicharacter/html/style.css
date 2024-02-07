@@ -18,7 +18,7 @@
     max-height: 70%;
     left: 14%;
     top: 20%;
-    background-color: #161923f2;
+    background-color: #000000f2;
     border-radius: 5px;
     box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
     padding: 30px;
@@ -68,7 +68,7 @@
 .characters::-webkit-scrollbar-thumb {
     border-radius:20px;
     border:1px solid #000000;
-    background-color:#a90d2ca6;
+    background-color:#ff7300b4;
 }
 .character {
     position: relative;
@@ -85,7 +85,7 @@
 }
 
 .character:hover {
-    background-color: #a90d2ca6;
+    background-color: #ff7300b4;
     box-shadow: rgb(37 17 17 / 25%) 0px 30px 60px -12px inset, rgb(154 54 54 / 30%) 0px 18px 36px -18
 }
 
@@ -107,7 +107,7 @@
 }
 
 .char-selected {
-    background-color: #a90d2ca6;
+    background-color: #ff7200;
     box-shadow: rgb(37 17 20 / 25%) 0px 30px 60px -12px inset, rgb(154 54 54 / 30%) 0px 18px 36px -18;
     transition: 250ms;
 }
@@ -137,13 +137,13 @@
 }
 
 #play {
-    background-color: rgb(47 134 67);
+    background-color: #ff7300b4;
     border-radius: .3vh;
     transition: all 0.2s ease;
 }
 
 #delete {
-    background-color: rgb(144 41 62);
+    background-color: #ff7300b4;
     border-radius: .3vh;
     transition: all 0.2s ease;
 }
@@ -163,7 +163,7 @@
     right: 14%;
     top: 20%;
     padding: 30px;
-    background-color: #161923f2;
+    background-color: #000000f2;
     border-radius: 5px;
     box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
     overflow: visible !important;
@@ -298,7 +298,7 @@
     left: 32px;
     padding: 30px;
     font-family: 'Poppins', sans-serif;
-    background-color: #161923f2;
+    background-color: #000000f2;
     border-radius: 5px;
     box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
     transition: 400ms;
@@ -534,7 +534,7 @@ input[type="date"]::-webkit-clear-button {
 }
 
 .theme--light.v-picker__body {
-    background: #161923f2!important;
+    background: #000000f2!important;
 }
 
 .v-picker__actions.v-card__actions {
