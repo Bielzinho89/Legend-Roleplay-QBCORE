@@ -61,7 +61,7 @@ local function SetupJobMenu()
     if PlayerData.job.type == "leo" then JobInteractionCheck = "police" end
     local JobMenu = {
         id = 'jobinteractions',
-        title = 'Work',
+        title = 'Trabalho',
         icon = 'briefcase',
         items = {}
     }
@@ -82,7 +82,7 @@ end
 local function SetupVehicleMenu()
     local VehicleMenu = {
         id = 'vehicle',
-        title = 'Vehicle',
+        title = 'Veículo',
         icon = 'car',
         items = {}
     }
@@ -96,7 +96,7 @@ local function SetupVehicleMenu()
         if not IsVehicleOnAllWheels(Vehicle) then
             VehicleMenu.items[#VehicleMenu.items + 1] = {
                 id = 'vehicle-flip',
-                title = 'Flip Vehicle',
+                title = 'Desvirar',
                 icon = 'car-burst',
                 type = 'client',
                 event = 'qb-radialmenu:flipVehicle',
